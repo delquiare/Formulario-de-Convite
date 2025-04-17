@@ -1,0 +1,26 @@
+@import url(fields/index.css);
+
+form {
+  margin-top: 3rem;
+  
+}
+
+fieldset {
+  border: none;
+
+  display: grid;
+  gap: 1.5rem;
+
+}
+
+input, textarea {
+  background-color: var(--input-base);
+}
+
+.inicio-fim {
+  display: flex;
+  gap: 1rem;
+}
+
+
+

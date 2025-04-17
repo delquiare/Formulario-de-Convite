@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-logo: 'leckerli one', sans-serif;
+  --text-logo: 700 2.5rem var(--font-logo);
+
+  --font-title: 'baloo 2', sans-serif;
+  --text-title-md: 700 1.75rem/1.4 var(--font-title);
+  --text-title-sm: 700 1.125rem/1.4 var(--font-title);
+
+  --font-body: 'open sans', sans-serif;
+  --text-body-md: 200 1rem var(--font-body);
+  --text-body-sm: 200 0.875rem var(--font-body);
+  --text-body-sx: 200 0.75rem var(--font-body);
+
+  --text-primary: #F9F9F9;
+  --text-body: #C8CDD0;
+
+  --brand-light: #59B2FF;
+  --brand-mid: #3487CF;
+  --brand-dark: #1D6FB6;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2D3136;
+  --shape-hover: #383D42;
+
+  --input-base: #1C1F21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
+
+  --feedback: #FF5959;
+}
+
+body {
+  overflow: hidden;
+
+  font: var(--text-body-sm);
+  background-color: var(--shape-body);
+}
