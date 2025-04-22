@@ -21,18 +21,10 @@ fieldset > .modalidade {
   border-radius: 8px;
   padding: 4px;
   cursor: pointer;
-  gap: .rem;
+  gap: .5rem;
   /* border: red solid 1px; */
   
-  
-  /* position: relative;
-  & input,
-  & input:focus,
-  & input:hover {
-    all: unset;
-    position: absolute;
-    inset: 0;
-  } */
+
 
   .radio-evento {
     display: flex;
@@ -64,7 +56,6 @@ fieldset > .modalidade {
       fill: var(--brand-light);
     }
   }
-
   
 
 
@@ -74,26 +65,66 @@ fieldset > .modalidade {
   color: var(--text-body);
   border-radius: 6px;
   all: unset;
-  padding-inline: 0.5rem;
-  /* border: red solid 1px; */
+  
 
 }
 
-/* .radio-image-1:hover {
-  background-image: url(/assets/icons/building-2-blue.svg);
-  position: absolute;
 
-  width: 1rem;
-  height: 1rem;
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
+.colors input[type="radio"] {
+  display: none;
+}
 
-.radio-image-2:hover {
-  background-image: url(/assets/icons/video-2-blue.svg);
-  position: absolute;
+.colors label {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--color);
+  cursor: pointer;
+  border: 2px solid transparent;
+}
 
-  width: 1rem;
-  height: 1rem;
-} */
+.colors input[type="radio"]:checked + label {
+  border-color: #33aaff; 
+}
 
+.event-theme {
+  margin-top: 2rem;
+}
+
+.radio-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.3rem, 1fr));
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+.radio-inner {
+  border: 1px solid var(--input-stroke);
+  border-radius: .5rem;
+  background-color: var(--shape-button);
+
+  display: grid;
+  justify-items: center;
+  gap: .5rem;
+  padding-bottom: .5rem;
+
+  
+
+  & input,
+  & input:focus,
+  & input:hover {
+    all: unset;
+  }
+
+  &:hover, &:focus-within {
+    border: 2px solid var(--brand-light);
+  }
+}
 

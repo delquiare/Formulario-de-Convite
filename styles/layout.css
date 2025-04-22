@@ -15,7 +15,9 @@ main {
   padding: 5rem 8.125rem;
   background-color: var(--shape-body);
   border-radius: 12px;
-  
+  color: var(--text-body);
+  display: block;
+  margin-bottom: .75rem;
 
   & .main-container {
 
@@ -33,6 +35,7 @@ main {
   display: flex;
   align-items: center;
   gap: .75rem;
+  margin-top: 3rem;
   margin-bottom: 1.5rem;
   p {
     color: var(--text-primary);
