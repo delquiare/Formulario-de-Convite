@@ -199,6 +199,73 @@
           </div>
 
         </fieldset>
+
+        <div class="form-row">
+          <div class="form-group">
+              <span class="label">Estilo</span>
+              <label class="toggle-switch">
+                  <input type="checkbox" checked>
+                  <span class="slider"></span>
+              </label>
+              <span class="theme-label">Escuro</span>
+          </div>
+
+          
+          <div class="form-group">
+              <span class="label">Foto de capa</span>
+              <div class="file-selector">
+                  <label class="select-button">
+                      <input type="file" style="display:none">
+                      Selecionar
+                  </label>
+                  <span class="file-status">Nenhum arquivo selecionado</span>
+              </div>
+          </div>
+      </div>
+
+      <div class="form-footer">
+        <!-- Checkbox dos termos e condições -->
+        <div class="terms-container">
+          <input type="checkbox" id="terms">
+          <label for="terms" class="terms-text">
+            Li e concordo com os <a href="#" class="terms-link">Termos e Condições</a> e com a <a href="#" class="terms-link">Política de Privacidade</a>
+          </label>
+        </div>
+        
+        <!-- Checkbox de atualizações por email -->
+        <div class="checkbox-container">
+          <input type="checkbox" id="email-updates">
+          <label for="email-updates" class="terms-text">
+            Aceito receber atualizações e promoções por e-mail
+          </label>
+        </div>
+        
+        <!-- Checkbox de atualizações por SMS -->
+        <div class="checkbox-container">
+          <input type="checkbox" id="sms-updates">
+          <label for="sms-updates" class="terms-text">
+            Aceito receber atualizações e promoções por SMS
+          </label>
+        </div>
+        
+        <!-- Botão de gerar convite -->
+        <button type="submit">
+          <span class="button-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="16" rx="2" ry="2"></rect>
+              <line x1="12" y1="4" x2="12" y2="20"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+            </svg>
+          </span>
+          Gerar convite
+        </button>
+      </div>
+
+
+          </div>
+        </div>
+        
+
       </form>
 
     </main>
